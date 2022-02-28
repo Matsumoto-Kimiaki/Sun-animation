@@ -1,0 +1,363 @@
+.circle {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.frame1 {
+  position: absolute;
+  top: 25px;
+  left: calc(50% - 6px);
+  width: 12px;
+  height: 50%;
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-animation: rotate1 4s linear infinite;
+          animation: rotate1 4s linear infinite;
+}
+
+@-webkit-keyframes rotate1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.frame2 {
+  position: absolute;
+  top: 25px;
+  left: calc(50% - 6px);
+  width: 12px;
+  height: 50%;
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-animation: rotate2 4s linear infinite;
+          animation: rotate2 4s linear infinite;
+}
+
+@-webkit-keyframes rotate2 {
+  0% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  100% {
+    -webkit-transform: rotate(405deg);
+            transform: rotate(405deg);
+  }
+}
+
+@keyframes rotate2 {
+  0% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  100% {
+    -webkit-transform: rotate(405deg);
+            transform: rotate(405deg);
+  }
+}
+
+.frame3 {
+  position: absolute;
+  top: 25px;
+  left: calc(50% - 6px);
+  width: 12px;
+  height: 50%;
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-animation: rotate3 4s linear infinite;
+          animation: rotate3 4s linear infinite;
+}
+
+@-webkit-keyframes rotate3 {
+  0% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  100% {
+    -webkit-transform: rotate(450deg);
+            transform: rotate(450deg);
+  }
+}
+
+@keyframes rotate3 {
+  0% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  100% {
+    -webkit-transform: rotate(450deg);
+            transform: rotate(450deg);
+  }
+}
+
+.frame4 {
+  position: absolute;
+  top: 25px;
+  left: calc(50% - 6px);
+  width: 12px;
+  height: 50%;
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  -webkit-animation: rotate4 4s linear infinite;
+          animation: rotate4 4s linear infinite;
+}
+
+@-webkit-keyframes rotate4 {
+  0% {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  100% {
+    -webkit-transform: rotate(495deg);
+            transform: rotate(495deg);
+  }
+}
+
+@keyframes rotate4 {
+  0% {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  100% {
+    -webkit-transform: rotate(495deg);
+            transform: rotate(495deg);
+  }
+}
+
+.frame5 {
+  position: absolute;
+  top: 25px;
+  left: calc(50% - 6px);
+  width: 12px;
+  height: 50%;
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-animation: rotate5 4s linear infinite;
+          animation: rotate5 4s linear infinite;
+}
+
+@-webkit-keyframes rotate5 {
+  0% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(540deg);
+            transform: rotate(540deg);
+  }
+}
+
+@keyframes rotate5 {
+  0% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(540deg);
+            transform: rotate(540deg);
+  }
+}
+
+.frame6 {
+  position: absolute;
+  top: 25px;
+  left: calc(50% - 6px);
+  width: 12px;
+  height: 50%;
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+  -webkit-animation: rotate6 4s linear infinite;
+          animation: rotate6 4s linear infinite;
+}
+
+@-webkit-keyframes rotate6 {
+  0% {
+    -webkit-transform: rotate(225deg);
+            transform: rotate(225deg);
+  }
+  100% {
+    -webkit-transform: rotate(585deg);
+            transform: rotate(585deg);
+  }
+}
+
+@keyframes rotate6 {
+  0% {
+    -webkit-transform: rotate(225deg);
+            transform: rotate(225deg);
+  }
+  100% {
+    -webkit-transform: rotate(585deg);
+            transform: rotate(585deg);
+  }
+}
+
+.frame7 {
+  position: absolute;
+  top: 25px;
+  left: calc(50% - 6px);
+  width: 12px;
+  height: 50%;
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  -webkit-animation: rotate7 4s linear infinite;
+          animation: rotate7 4s linear infinite;
+}
+
+@-webkit-keyframes rotate7 {
+  0% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+  100% {
+    -webkit-transform: rotate(630deg);
+            transform: rotate(630deg);
+  }
+}
+
+@keyframes rotate7 {
+  0% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+  100% {
+    -webkit-transform: rotate(630deg);
+            transform: rotate(630deg);
+  }
+}
+
+.frame8 {
+  position: absolute;
+  top: 25px;
+  left: calc(50% - 6px);
+  width: 12px;
+  height: 50%;
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+  -webkit-animation: rotate8 4s linear infinite;
+          animation: rotate8 4s linear infinite;
+}
+
+@-webkit-keyframes rotate8 {
+  0% {
+    -webkit-transform: rotate(315deg);
+            transform: rotate(315deg);
+  }
+  100% {
+    -webkit-transform: rotate(675deg);
+            transform: rotate(675deg);
+  }
+}
+
+@keyframes rotate8 {
+  0% {
+    -webkit-transform: rotate(315deg);
+            transform: rotate(315deg);
+  }
+  100% {
+    -webkit-transform: rotate(675deg);
+            transform: rotate(675deg);
+  }
+}
+
+.triangle {
+  margin-top: 28px;
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  -webkit-clip-path: polygon(0 0, 100% 0, 50% 50%);
+          clip-path: polygon(0 0, 100% 0, 50% 50%);
+  -webkit-animation: stretch 1s linear alternate infinite;
+          animation: stretch 1s linear alternate infinite;
+}
+
+@-webkit-keyframes stretch {
+  0% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 45%);
+            clip-path: polygon(0 0, 100% 0, 50% 45%);
+  }
+  33.3% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 45%);
+            clip-path: polygon(0 0, 100% 0, 50% 45%);
+  }
+  33.4% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 75%);
+            clip-path: polygon(0 0, 100% 0, 50% 75%);
+  }
+  66.6% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 75%);
+            clip-path: polygon(0 0, 100% 0, 50% 75%);
+  }
+  66.7% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+            clip-path: polygon(0 0, 100% 0, 50% 100%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+            clip-path: polygon(0 0, 100% 0, 50% 100%);
+  }
+}
+
+@keyframes stretch {
+  0% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 45%);
+            clip-path: polygon(0 0, 100% 0, 50% 45%);
+  }
+  33.3% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 45%);
+            clip-path: polygon(0 0, 100% 0, 50% 45%);
+  }
+  33.4% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 75%);
+            clip-path: polygon(0 0, 100% 0, 50% 75%);
+  }
+  66.6% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 75%);
+            clip-path: polygon(0 0, 100% 0, 50% 75%);
+  }
+  66.7% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+            clip-path: polygon(0 0, 100% 0, 50% 100%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+            clip-path: polygon(0 0, 100% 0, 50% 100%);
+  }
+}
+/*# sourceMappingURL=style.css.map */
